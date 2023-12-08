@@ -2,6 +2,8 @@
 
 This PHP class provides methods for generating public/private key pairs and performing asymmetric encryption and decryption using OpenSSL. 
 
+(Note: For client-side JavaScript asymmetric encryption, see [https://github.com/jrmro/AsymmetricEncryptionJS](https://github.com/jrmro/AsymmetricEncryptionJS)).
+
 ## Sample Usage
 
 ```
@@ -25,7 +27,7 @@ echo "Decrypted Data: {$decrypted_data}\n";
 
 ## Note
 * This class uses OpenSSL for encryption and decryption. Make sure OpenSSL is enabled in your PHP configuration.
-* Handle and store the private key securely. Do not expose it or hardcode it in your code.
+* Handle and store the private key securely. Do not expose it or hardcode it in your project.
 
 ## License
 This code is released under the MIT License.
