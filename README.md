@@ -29,5 +29,8 @@ echo "Decrypted Data: {$decrypted_data}\n";
 * This class uses OpenSSL for encryption and decryption. Make sure OpenSSL is enabled in your PHP configuration.
 * Handle and store the private key securely. Do not expose it or hardcode it in your project.
 
+## Author
+Joseph Romero
+
 ## License
 This code is released under the MIT License.
